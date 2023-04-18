@@ -130,7 +130,8 @@ nav ul li a:hover {
     grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
     grid-template-rows: repeat(minmax(100px, 1fr), 1fr);
     justify-content: center;
-    margin-left: 11%;
+    margin-left: 20%;
+    gap: 20px 0;
 
 }
 
@@ -367,4 +368,6 @@ footer {
     .infocontainer figure {
     display: none;
 }
+    .hello {
+        font-size:0.65rem;
 }
