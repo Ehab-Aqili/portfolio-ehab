@@ -133,12 +133,14 @@ nav ul li a:hover {
 
 .skills {
   display: grid;
-  grid-template-columns: repeat(6, minmax(200px, 1fr));
-  grid-template-rows: repeat(2, minmax(100px, 1fr));
-  column-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(minmax(100px, 1fr), 1fr);
   row-gap: 80px;
+  margin: 0 auto;
+  width: 70%;
+  align-items: center;
   justify-content: center;
-  margin-left: 11%;
+  justify-items: center;
 }
 
 main h1 {
