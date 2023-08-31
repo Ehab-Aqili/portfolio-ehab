@@ -83,18 +83,7 @@ nav ul li a:hover {
     color:#fdc435;
     border-bottom:1px solid #fdc435;
 }
-@media screen and (max-width: 600px) {
-    .humburgerMenu {
-        display: block;
-      }
-      .navHeader {
-        display: none;
-      }
-      .myNamenav {
-        font-size: 1.5rem;
-      }
-    
-}
+
 /* Contacts Page Code here */
 .contactHeader {
     margin: 0% 15%;
@@ -179,4 +168,21 @@ footer {
     display: flex;
     justify-content: center;
     padding: 3% 0;
+}
+@media screen and (max-width: 600px) {
+    .humburgerMenu {
+        display: block;
+      }
+      .navHeader {
+        display: none;
+      }
+      .myNamenav {
+        font-size: 1.5rem;
+      }
+      .infocontainer {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    
 }
